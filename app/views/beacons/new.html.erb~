@@ -1,0 +1,17 @@
+<h1>Add Beacon</h1>
+
+<%= form_for :beacon do |f| %>
+	<p>
+		<%= f.label :sid %>
+		<%= f.text_field :sid %>	
+	</p>
+
+	<p>
+		<%= f.label :loc %>
+		<%= f.text_field :loc %>
+	</p>
+	
+	<p>
+		<%= f.submit %>
+	</p>
+<% end %>
